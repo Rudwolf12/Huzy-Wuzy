@@ -37,18 +37,22 @@ p, h3 {
     color: white;
 }
 
-#logoHeader{
+#logoHeader {
     float: left;
     padding: 15px 0 0 20px;
     min-width: 45px;
     max-width: 50px;
 }
 
-#logoHeader:hover {
+#logoFooter {
+    float: left;
+}
+
+#logoFooter:hover {
     color: #b0aba0;
 }
 
-#logoHeader, .siteName {
+#logoHeader, .siteName, #logoFooter {
     display: block;
     font-weight: 700;
     font-size: 1.2em;
@@ -153,6 +157,30 @@ li.dropdown {
     position: absolute;
 }
 
+#mainFooter {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+    height: 100%;
+}
+
+#mainFooter a {
+    color: white;
+    text-decoration: none;
+}
+
+#mainFooter {
+    background-color: #333;
+    color: white;
+    height: 40px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
 /*Ignorar esta parte del codigo pues no sirve aun...*/
 
 .code-example {
@@ -184,3 +212,4 @@ pre code {
 .token {
     color: cadetblue;
 }
+
