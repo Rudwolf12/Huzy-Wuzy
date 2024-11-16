@@ -29,7 +29,27 @@
             </ul>
         </nav>
     </header>
-    <h2>Funciones matemáticas</h2>
+    
+    <main id="mainContent">
+        <header>
+            <h2>Funciones matemáticas</h2>
+        </header>
+        <article class="content">
+            <div id="valor1"></div>
+            <div id="valor2"></div>
+            <div id="valor3"></div>
+            <div>
+                <h3>Uso de la función que genera una potencia</h3>
+                <p id="valor4"></p>
+                <label for='num1'>Primer número: </label>
+                <input type='number' placeholder="2" name='num1' id='num1' onchange="actu()">
+                <br>    
+                <label for='num2'>Segundo número: </label>
+                <input type='number' placeholder="4" name='num2' id='num2' onchange="actu()">
+                <br><br>
+            </div>
+        </article>
+    </main>
 </body>
 <script src="./../scripts/Matemáticas.js"></script>
 </html>
