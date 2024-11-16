@@ -1,0 +1,37 @@
+@import url("style_1.css");
+
+body {
+    text-align: center;
+}
+
+/*Ignorar esta parte del codigo pues no sirve aun...*/
+
+.code-example {
+    --code-action-color: #cdcdcd;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+pre {
+    background-color: #343434;
+    border: 1px solid #0000;
+    margin: 1rem 0 2rem;
+    padding: 1rem 2.5rem 1rem 1rem;
+}
+
+.code-example, code, pre {
+    border-radius: 0.25rem;
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+    font-size: 0.8333rem;
+    tab-size: 4;
+}
+
+pre code {
+    background: none;
+    color: #fff;
+    padding: 0;
+}
+
+.token {
+    color: cadetblue;
+}
