@@ -27,3 +27,25 @@ img {
     height: auto;
 }
 
+#mainHeader {
+    background-color: #333;
+    color: white;
+    height: 80px;
+}
+
+#mainHeader a {
+    color: white;
+}
+
+#logoHeader{
+    float: left;
+    padding: 15px 0 0 20px;
+}
+
+#logoHeader:hover {
+    color: #b0aba0;
+}
+
+#logoHeader, .siteName {
+
+}
