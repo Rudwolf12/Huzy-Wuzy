@@ -13,7 +13,6 @@ h1 {
     font-size: 2.3em;
     line-height: 1.3em;
     margin: 15px 0;
-    text-align: center;
     font-weight: 300;
 }
 
@@ -44,14 +43,15 @@ p {
     max-width: 50px;
 }
 
-#logoHeader:hover {
-    color: #b0aba0;
+#logo{
+    float: right;
+    max-width: 10rem;
+    padding: 0 15px 0 25px;
+    margin-right: 25px;
 }
 
-#logoHeader, .siteName {
-    display: block;
-    font-weight: 700;
-    font-size: 1.2em;
+#logoHeader:hover {
+    color: #b0aba0;
 }
 
 nav {
@@ -132,13 +132,6 @@ li.dropdown {
 
 #mainContent header, #mainContent .content {
     padding: 40px;
-}
-
-#mainContent img {
-    width: 25vw;
-    right: 15vw;
-    top: 15vw;
-    position: absolute;
 }
 
 #mainHeader {
