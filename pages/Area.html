@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../styles/style_2.css">
+    <link rel="stylesheet" href="./../styles/style_3.css">
     <title>Document</title>
 </head>
 <body>
@@ -22,15 +22,27 @@
                 </li>
                 <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Funciones Definidas por el usuario</a>
                     <div class="dropdown-content">
-                        <a href="Area.html">Area del circulo</a>
                         <a href="IMC.html">Calcular IMC</a>
                     </div>
                 </li>
             </ul>
         </nav>
     </header>
-    <h2>Funcion definida por usuario: Calculador del area de un circulo</h2>
-    <p>En este ejemplo se convierte grados Fahrenheit a Celsius y utiliza la función parseInt que convierte cualquier valor a un número entero:</p>
+    <main id="mainContent">
+        <header>
+            <h2>Area de un circulo</h2>
+        </header>
+        <article class="content">
+            <p>En este ejemplo se usa una funcion que fue definida por el programador en este caso se obtendra el area de un circulo:</p>
+
+            <label for="Radio">Radio: </label>
+            <input type="number" name="Radio" id="Radio">
+
+            <button onclick="calcularArea()">Calcular</button>
+            
+            <p id="resultado">Area: </p>
+        </article>
+    </main>
 </body>
 <script src="./../scripts/Area.js"></script>
 </html>
