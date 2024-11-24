@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../styles/style_2.css">
+    <link rel="stylesheet" href="./../styles/style_3.css">
     <title>Document</title>
 </head>
 <body>
@@ -29,8 +29,25 @@
             </ul>
         </nav>
     </header>
-    <h2>Conversión</h2>
-    <p>En este ejemplo se convierte grados Fahrenheit a Celsius y utiliza la función parseInt que convierte cualquier valor a un número entero:</p>
+    <br><br>
+    <main id="mainContent">
+        <header>
+            <h2>IMC</h2>
+        </header>
+        <article class="content">
+            <p>En este ejemplo se usa una funcion que fue definida por el programador en este caso se sacara el indice de masa corporal o IMC:</p>
+
+            <label for="Peso">Peso (Kg): </label>
+            <input type="number" name="Peso" id="Peso">
+            <label for="Altura">Altura: </label>
+            <input type="number" name="Altura" id="Altura">
+
+            <button onclick="calcularIMC()">Calcular</button>
+            
+            <p id="resultado">IMC: </p>
+            <p id="cometario"></p>
+        </article>
+    </main>
 </body>
 <script src="./../scripts/IMC.js"></script>
 </html>
